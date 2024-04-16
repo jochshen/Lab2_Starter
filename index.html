@@ -203,15 +203,13 @@
             <label for="message">Message:</label><br />
             <textarea id="message" name="message" rows="4" cols="50"></textarea
             ><br />
-            <label
-              >Gender:
+            <div>
+              <label for="male">Gender:</label>
               <input type="radio" id="male" name="gender" value="male" />
               <label for="male">Male</label>
-            </label>
-
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="female">Female</label><br />
-
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </div>
             <label for="songs">Favorite Song out of the Two:</label>
             <input type="text" id="songs" name="song" list="sing-titles" />
             <datalist id="sing-titles">
